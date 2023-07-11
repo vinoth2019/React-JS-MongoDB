@@ -1,0 +1,38 @@
+.container{
+    width: 350px;
+    background: #e5e5e5;
+    padding: 20px 10px;
+    border-radius: 12px;
+    box-shadow: 4px 3px 12px #000;
+    margin: 20px 0px;
+}
+.container-title{
+    display: flex;
+}
+.container-title svg{
+    margin-right: 8px;
+    cursor: unset !important; 
+}
+.container-command{
+    font-size: 18px;
+    margin: 10px 0px;
+}
+
+.container svg{
+    cursor: pointer;
+}
+.container-option{
+    display: flex;
+    justify-content: right;
+}
+.edit{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.delete{
+    display: flex;
+    align-items: center; 
+    cursor: pointer;
+}
